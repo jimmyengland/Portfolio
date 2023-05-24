@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Works = ({content}) => {
+const Works = ({ content }) => {
   return (
     <div name='work' className='w-full md:h-screen text-gray-300 bg-[#014F86]'>
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
@@ -29,12 +29,16 @@ const Works = ({content}) => {
                     {work.work_description}
                   </p>
                   <div className="pt-8 text-center">
-                    <a href={work.github_url}>
+                    <a href={work.demo_url}
+                      target="_blank"
+                      rel="noreferrer">
                       <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                         Demo
                       </button>
                     </a>
-                    <a href={work.demo_url}>
+                    <a href={work.github_url}
+                      target="_blank"
+                      rel="noreferrer">
                       <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                         Code
                       </button>
