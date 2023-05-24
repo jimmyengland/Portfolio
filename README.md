@@ -1,1 +1,1 @@
-My front-end developer portfolio. Created with HTML, React, Tailwind CSS
+My front-end developer portfolio. Created with HTML, React, Node.JS and Tailwind CSS
